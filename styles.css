@@ -97,23 +97,43 @@ p {
   border-color: #66BFBF;
 }
 
+.skills-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skill-row1-img {
+  grid-row: 1;
+  grid-column: 1;
+  width: 20%;
+}
+
+.skill-row2-img {
+  grid-row: 2;
+  grid-column: 1;
+  width: 20%;
+}
+
+.skill-row3-img {
+  grid-row: 3;
+  grid-column: 1;
+  width: 20%;
+}
+
+.skill-row4-img {
+  grid-row: 4;
+  grid-column: 1;
+  width: 20%;
+}
+
 .skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
-}
-
-.skill-row-img {
-  width: 15%;
-  float: left;
-  margin-right: 30px;
-}
-
-.skill-row-img-second {
-  width: 15%;
-  float: right;
-  margin-left: 30px;
+  justify-self: start;
+  width: 70%;
 }
 
 a {
