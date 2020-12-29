@@ -49,7 +49,7 @@ p {
 }
 
 .intro {
-  width: 40%;
+  width: 60%;
   margin: 40px auto 60px;
   text-align: justify;
 }
@@ -97,7 +97,7 @@ p {
   border-color: #66BFBF;
 }
 
-.skills-list {
+.grid-layout {
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
@@ -136,6 +136,16 @@ p {
   width: 70%;
 }
 
+.job-img {
+  width: 5%;
+}
+
+.job-experience {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
 a {
   text-decoration: none;
   color: #11999E;
@@ -155,7 +165,6 @@ a:hover {
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
-  text-align: justify;
 }
 
 .btn {
