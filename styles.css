@@ -42,19 +42,10 @@ p {
 
 .top-container-circle {
   width: 45%;
-  border: 3px dotted;
   height: 60%;
   position: absolute;
   top: 18%;
   left: 27%;
-  border-radius: 100%;
-  border-color: #66BFBF;
-}
-
-.sim-img {
-  position: absolute;
-  top: 80%;
-  width: 10%;
 }
 
 .intro {
@@ -63,10 +54,30 @@ p {
   text-align: justify;
 }
 
+.tree-img {
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  width: 15%;
+}
+
+.tree2-img {
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  width: 15%;
+}
+
 .top-container {
   background-color: #E4F9F5;
   position: relative;
-  height: 600px;
+}
+
+.background-img {
+
+  position: absolute;
+  left: 0%;
+  top: 0%;
 }
 
 .middle-container {
@@ -82,6 +93,8 @@ p {
   border-radius: 50%;
   width: 25%;
   height: 25%;
+  border: 5px solid black;
+  border-color: #66BFBF;
 }
 
 .skill-row {
