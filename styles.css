@@ -3,6 +3,7 @@ body {
   text-align: center;
   font-family: 'Andika New Basic', sans-serif;
   color: #40514E;
+  background-color: #f4f6ff;
 }
 
 h1 {
@@ -34,50 +35,29 @@ p {
   line-height: 2;
 }
 
-.top-container-content {
-  padding-top: 150px;
-  width: 50%;
-  margin: 0 auto;
-}
-
-.top-container-circle {
-  width: 45%;
-  height: 60%;
-  position: absolute;
-  top: 18%;
-  left: 27%;
-}
-
 .intro {
   width: 60%;
   margin: 40px auto 60px;
   text-align: justify;
 }
 
-.tree-img {
-  position: absolute;
-  left: 10%;
-  top: 40%;
-  width: 15%;
-}
-
-.tree2-img {
-  position: absolute;
-  right: 10%;
-  top: 40%;
-  width: 15%;
-}
-
 .top-container {
-  background-color: #E4F9F5;
   position: relative;
+  height: 1000px;
+  background-image: url("./images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-.background-img {
+.top-container-title {
+  padding-top: 15%;
+}
 
-  position: absolute;
-  left: 0%;
-  top: 0%;
+.top-container-title h1 {
+  color: white;
+}
+.top-container-title h2 {
+  color: white;
 }
 
 .middle-container {
@@ -93,8 +73,6 @@ p {
   border-radius: 50%;
   width: 25%;
   height: 25%;
-  border: 5px solid black;
-  border-color: #66BFBF;
 }
 
 .grid-layout {
